@@ -11,14 +11,14 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :material-trophy:{ .lg .middle } __NovruzCTF 2025__
+-   :material-trophy:{ .lg .middle } __NovruzCTF 2026__
 
     ---
 
     **17 题** — Web / Crypto / Reverse / Misc / PPC
 
-    2025 年 3 月
+    2026 年 3 月
 
-    [:octicons-arrow-right-24: 查看全部 Writeups](NovruzCTF_2025/index.md)
+    [:octicons-arrow-right-24: 查看全部 Writeups](NovruzCTF_2026/index.md)
 
 </div>

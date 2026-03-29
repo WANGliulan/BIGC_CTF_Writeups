@@ -3,9 +3,9 @@ hide:
   - toc
 ---
 
-# NovruzCTF 2025
+# NovruzCTF 2026
 
-**时间**: 2025 年 3 月 | **题目数**: 17 | **类别**: Web / Crypto / Reverse / Misc / PPC
+**时间**: 2026 年 3 月 | **题目数**: 17 | **类别**: Web / Crypto / Reverse / Misc / PPC
 
 ---
 

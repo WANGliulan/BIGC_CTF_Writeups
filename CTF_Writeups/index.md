@@ -62,7 +62,7 @@ tags:
 
 | 比赛 | 时间 | 类别 | 题数 | 状态 |
 |------|------|------|:----:|------|
-| [**NovruzCTF 2025**](events/NovruzCTF_2025/index.md) | 2025.03 | Web / Crypto / Rev / Misc / PPC | 17 | :material-check-circle: 已归档 |
+| [**NovruzCTF 2026**](events/NovruzCTF_2026/index.md) | 2026.03 | Web / Crypto / Rev / Misc / PPC | 17 | :material-check-circle: 已归档 |
 
 ---
 
