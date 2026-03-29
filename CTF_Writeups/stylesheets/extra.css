@@ -405,3 +405,48 @@ body {
     --cyb-accent: #006b55;
   }
 }
+
+/* ---------- Breadcrumbs (navigation.path) ---------- */
+.md-path {
+  background: var(--cyb-bg-surface);
+  border-bottom: 1px solid var(--cyb-border);
+  padding: 0.4rem 0;
+}
+
+.md-path__link {
+  color: var(--cyb-text-muted) !important;
+  font-size: 0.78rem;
+  transition: color 0.2s;
+}
+
+.md-path__link:hover {
+  color: var(--cyb-accent) !important;
+}
+
+.md-path__separator {
+  color: var(--cyb-text-muted);
+}
+
+/* ---------- Script source link button ---------- */
+.script-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  background: var(--cyb-accent-dim);
+  border: 1px solid rgba(0, 212, 170, 0.25);
+  border-radius: 6px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--cyb-accent) !important;
+  text-decoration: none !important;
+  transition: all 0.2s;
+  margin-right: 0.5rem;
+}
+
+.script-link:hover {
+  background: rgba(0, 212, 170, 0.25);
+  border-color: var(--cyb-accent);
+  box-shadow: 0 0 12px var(--cyb-accent-dim);
+  transform: translateY(-1px);
+}
