@@ -94,12 +94,12 @@ extra:
     giscus_category_id: ""
 
 extra_javascript:
-  - javascripts/floating-drawer.js
+  - javascripts/floating-drawer_v3.js
   - javascripts/mathjax.js
   - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/extra_v3.css
 
 nav:
   - 首页: index.md

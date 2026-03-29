@@ -95,7 +95,7 @@ body {
   display: inline-flex !important;
 }
 
-/* Fallback floating drawer button (always visible on non-desktop widths) */
+/* Fallback floating drawer button (always visible on ALL screen sizes) */
 .cyb-drawer-toggle {
   position: fixed;
   top: 0.7rem;
@@ -106,13 +106,13 @@ body {
   border: 1px solid var(--cyb-border);
   background: rgba(10, 15, 20, 0.9);
   color: #ffffff;
-  display: inline-flex;
+  display: inline-flex !important;
   align-items: center;
   justify-content: center;
   font-size: 1.1rem;
   line-height: 1;
   cursor: pointer;
-  z-index: 1200;
+  z-index: 9999;
   transition: all 0.2s ease;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -122,12 +122,6 @@ body {
   color: var(--cyb-accent);
   border-color: var(--cyb-accent);
   box-shadow: 0 0 12px var(--cyb-accent-dim);
-}
-
-@media screen and (min-width: 76.25em) {
-  .cyb-drawer-toggle {
-    display: none;
-  }
 }
 
 .md-header__button:hover {
