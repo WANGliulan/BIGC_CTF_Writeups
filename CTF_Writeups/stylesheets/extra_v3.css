@@ -96,6 +96,33 @@ body {
   display: inline-block !important;
 }
 
+/* 桌面端：点击汉堡按钮弹出导航抽屉 */
+@media screen and (min-width: 76.25em) {
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 12.1rem;
+    height: 100vh;
+    z-index: 100;
+    background: var(--cyb-bg-surface);
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.6);
+    transform: translateX(0);
+    opacity: 1;
+    overflow-y: auto;
+    padding-top: 3.6rem;
+  }
+
+  /* 抽屉打开时的半透明遮罩 */
+  [data-md-toggle="drawer"]:checked ~ .md-container::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
 .md-header__button:hover {
   color: var(--cyb-accent) !important;
 }
