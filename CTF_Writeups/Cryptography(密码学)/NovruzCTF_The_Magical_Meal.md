@@ -19,6 +19,8 @@ flag format: novruzCTF{}
 
 flag格式：novruzCTF{}
 - CTF 密码破译员留下了一张纸，上面写着 ElGamal 加密参数。找到加密的"神奇菜肴"名称。
+- **附件**: `The Magic Meal.jpeg`
+- **附件链接**: [下载附件](https://github.com/starnotes-xj/BIGC_CTF_Writeups/raw/main/CTF_Writeups/files/The%20Magic%20Meal/The%20Magic%20Meal.jpeg){target="_blank"} · [仓库位置](https://github.com/starnotes-xj/BIGC_CTF_Writeups/tree/main/CTF_Writeups/files/The%20Magic%20Meal){target="_blank"}
 - **状态**: 已解
 
 ## Flag

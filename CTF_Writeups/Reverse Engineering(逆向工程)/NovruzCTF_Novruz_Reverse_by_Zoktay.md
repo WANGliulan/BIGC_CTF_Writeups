@@ -4,6 +4,7 @@
 - 比赛：NovruzCTF
 - 题目：novruz_rev_zoktay（Reverse）
 - 附件：`2a104a33-ad45-4bbf-8937-fb1f9ea85805.bin`（重命名为 `novruz_rev_zoktay`）
+- 附件链接：[下载附件](https://github.com/starnotes-xj/BIGC_CTF_Writeups/raw/main/CTF_Writeups/files/Novruz%20Reverse%20by%20Zoktay/novruz_rev_zoktay.bin){target="_blank"} · [仓库位置](https://github.com/starnotes-xj/BIGC_CTF_Writeups/tree/main/CTF_Writeups/files/Novruz%20Reverse%20by%20Zoktay){target="_blank"}
 - 目标：运行或逆向二进制获取 flag
   - 状态：已解
 
